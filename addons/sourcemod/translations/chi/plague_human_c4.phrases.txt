@@ -1,0 +1,27 @@
+﻿"Phrases"
+{
+	"human_c4"
+	{
+		"chi"		"C4炸弹"
+	}
+	"you bought human_c4"
+	{
+		"chi"		"你购买了C4炸弹，按静步键可以安放！"
+	}
+	"you must be alive"
+	{
+		"chi"        "你必须存活才能使用"
+	}
+	"you must be plant c4 on ground"
+	{
+		"chi"        "你必须在地上才能放置C4"
+	}
+	"wait another c4 explode"
+	{
+		"chi"        "另有C4炸弹即将爆炸，请稍等!"
+	}
+	"the bomb has been planted"
+	{
+		"chi"        "有玩家放置了一个 C4炸弹 将会爆炸!"
+	}
+}

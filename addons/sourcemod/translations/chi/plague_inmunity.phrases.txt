@@ -1,0 +1,11 @@
+﻿"Phrases"
+{
+	"inmunityzp"
+	{
+		"chi"		"防化服"
+	}
+	"You bought an human shield"
+	{
+		"chi"		"你购买了防化服(可抵挡五次僵尸抓伤)"
+	}
+}

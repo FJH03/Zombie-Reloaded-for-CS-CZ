@@ -2,10 +2,10 @@
 {
 	"doublejump"
 	{
-		"es"		"Doble salto"
+		"chi"		"二段跳跃"
 	}
 	"Ahora tienes DOBLE SALTO y puedes saltar en el aire!"
 	{
-		"es"		"Ahora tienes DOBLE SALTO y puedes saltar en el aire!"
+		"chi"		"现在你可以跳起来踩空气再跳一次！"
 	}
 }

@@ -2,10 +2,10 @@
 {
 	"invisibility"
 	{
-		"es"		"Ser invisible"
+		"chi"		"隐身"
 	}
 	"you bought invisibility"
 	{
-		"es"		"Ahora eres invisible!"
+		"chi"		"现在别人看不到你！"
 	}
 }

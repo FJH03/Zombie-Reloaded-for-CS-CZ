@@ -1,0 +1,11 @@
+﻿"Phrases"
+{
+	"velocity"
+	{
+		"chi"		"更快的速度"
+	}
+	"you bought velocity"
+	{
+		"chi"		"现在你的移动速度变得更快！"
+	}
+}

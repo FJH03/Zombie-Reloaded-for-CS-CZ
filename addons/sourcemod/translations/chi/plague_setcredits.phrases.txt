@@ -3,6 +3,6 @@
 	"Puesto creditos"
 	{
 		"#format"	"{1:i},{2:s}"
-		"es"		"Puesto {1} creditos en el jugador {2}"
+		"chi"		"现在玩家 {2} 拥有 {1} 个ZP积分！"
 	}
 }
