@@ -1,0 +1,942 @@
+// ============================================================================
+//
+//                    Zombie:Reloaded Class configuration
+//
+// See Class Configuration (3.7) in the manual for detailed info.
+//
+// ============================================================================
+//
+// SHORT DESCRIPTIONS
+//
+// Attribute:               Values:     Description:
+// ----------------------------------------------------------------------------
+// enabled                  yes/no      Enables or disables a class.
+// team                     number      Specifies what team the class belongs to:
+//                                      0 - Zombies
+//                                      1 - Humans
+//                                      2 - Admin mode classes (incomplete feautre!)
+// team_default             yes/no      Marks the class as the default class in the team.
+// flags                    number      Special class flags (bit field). To combine multiple flags
+//                                      use a sum of the flag values. Available flags:
+//                                      1 - Admins only
+//                                      2 - Mother zombies only
+// group                    text        Restrict class to member of this SourceMod group. Leave blank for no restriction.
+// name                     text        The class name used in class menu.
+// description              text        The class description used in class menu.
+// model_path               text        Path to model to use. Relative to cstrike folder.
+// alpha_initial            number      Initial transparency setting.
+// alpha_damaged            number      Transparency when damaged.
+// alpha_damage             number      How much damage to do before switching alpha.
+// overlay_path             text        Overlay displayed at the player.
+// nvgs                     yes/no      Give and turn on night vision.
+// fov                      number      Field of view value. 90 is default.
+// has_napalm               yes/no      Allows player to throw napalm grenades. Humans only.
+// napalm_time              decimal     Napalm burn duration. Zombies only.
+// immunity_mode            number      Sets the immunity mode.
+// immunity_amount          decimal     Sets the immunity value.
+// no_fall_damage           on/off      Disables fall damage.
+// health                   number      How many health points to give.
+// health_regen_interval    decimal     Sets the regeneration interval. 0 to disable.
+// health_regen_amount      number      How much HP to give per interval.
+// health_infect_gain       number      How much HP to give when the player infects someone. Zombies only.
+// kill_bonus               number      How many points to give per kill. Zombies only.
+// speed                    decimal     The player speed.
+// knockback                decimal     Force of the knockback when shot at. Zombies only.
+// jump_height              decimal     Multiplier of the players jump height. 0.0 means no jump boost, 1.0 is normal.
+// jump_distance            decimal     Multiplier of the players jump distance. 0.0 means no forward jump boost, 1.0 is normal.
+
+"classes"
+{
+    // ------------------------------------------
+    //
+    // Zombie classes
+    //
+    // ------------------------------------------
+    "zh_charple001"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "奥巴马"
+        "description"           "Need brains!!! Arrrrggghh!"
+        
+        // Model
+        "model_path"            "models/player/zh/zh_charple001.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "120"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "350"
+        "knockback"             "4"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+	"corpse002"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "烧的半焦的僵尸"
+        "description"           "I need water!!!"
+        
+        // Model
+        "model_path"            "models/zombies/corpse002.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "120"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "350"
+        "knockback"             "4"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+
+	"fastzombie_v1"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "快速猎头蟹僵尸"
+        "description"           "-HP | ++Speed | ++Jump | +Knockback"
+        
+        // Model
+        "model_path"            "models/player/zh/fastzombie_v1.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "yes"
+        
+        "health"                "100"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "450"
+        "knockback"             "4.5"
+        "jump_height"           "2.5"
+        "jump_distance"         "1.8"
+    }
+	
+	"slow_2"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "地狱犬"
+        "description"           "-HP | ++Speed | ++Jump | +Knockback"
+        
+        // Model
+        "model_path"            "models/zombies/slow_2.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "yes"
+        
+        "health"                "100"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "450"
+        "knockback"             "4.5"
+        "jump_height"           "2.5"
+        "jump_distance"         "1.8"
+    }
+    
+    
+    "zombie_heavy"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "生化危机马基尼"
+        "description"           "++HP | -Speed | -Jump | -Knockback"
+        
+        // Model
+        "model_path"            "models/player/ics/hellknight_red/t_guerilla.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "20.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "800"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "3"
+        
+        "speed"                 "300"
+        "knockback"             "2.0"
+        "jump_height"           "0.8"
+        "jump_distance"         "0.7"
+    }
+	
+	"t_guerilla_1"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "奇行种"
+        "description"           "++HP | -Speed | -Jump | -Knockback"
+        
+        // Model
+        "model_path"            "models/player/ics/hellknight_red/t_guerilla_1.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "20.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "800"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "3"
+        
+        "speed"                 "300"
+        "knockback"             "2.0"
+        "jump_height"           "0.8"
+        "jump_distance"         "0.7"
+    }
+	
+	"poison_v2"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "剧毒猎头蟹僵尸"
+        "description"           "+HP | -Speed | -Jump | -Knockback"
+        
+        // Model
+        "model_path"            "models/player/zh/poison_v2.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "20.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "500"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "3"
+        
+        "speed"                 "300"
+        "knockback"             "2.0"
+        "jump_height"           "0.8"
+        "jump_distance"         "0.7"
+    }
+    
+
+    "mother_zombie"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "no"
+        "flags"                 "2"
+        "group"                 ""
+        
+        "name"                  "Mother zombie"
+        "description"           "+HP regen | +Speed | +Jump | -Knockback"
+        
+        // Model
+        "model_path"            "models/player/zh/zh_zombie003.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "yes"
+        
+        "health"                "2000"
+        "health_regen_interval" "0.1"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "4"
+        
+        "speed"                 "350"
+        "knockback"             "2.8"
+        "jump_height"           "1.5"
+        "jump_distance"         "1.3"
+    }
+	
+	"half_zombie_v2"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "半截猎头蟹僵尸"
+        "description"           "--HP | -Speed | -Jump | ++Knockback"
+        
+        // Model
+        "model_path"            "models/player/zh/half_zombie_v2.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "50"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "280"
+        "knockback"             "4"
+        "jump_height"           "0.5"
+        "jump_distance"         "0.5"
+    }
+	
+	"imhotep"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "骷髅"
+        "description"           "--HP | -Speed | -Jump | ++Knockback"
+        
+        // Model
+        "model_path"            "models/player/zh/imhotep.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "50"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "280"
+        "knockback"             "4"
+        "jump_height"           "0.5"
+        "jump_distance"         "0.5"
+    }
+
+	"classic"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "猎头蟹(已掉落)僵尸"
+        "description"           "+HP"
+        
+        // Model
+        "model_path"            "models/zombies/classic.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "150"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "4"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+	"crunch"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "不是特别壮的僵尸"
+        "description"           "+HP"
+        
+        // Model
+        "model_path"            "models/player/zh/crunch.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "150"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "4"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+	"corpse"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "十级烧伤僵尸"
+        "description"           "+HP"
+        
+        // Model
+        "model_path"            "models/zombies/corpse.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "150"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "4"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+	"charple001"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "烧焦的僵尸"
+        "description"           "+HP"
+        
+        // Model
+        "model_path"            "models/zombies/charple001.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "150"
+        "health_regen_interval" "0"
+        "health_regen_amount"   "1"
+        "health_infect_gain"    "50"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "4"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+    
+    "mother_zombie_admin"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "0"
+        "team_default"          "no"
+        "flags"                 "3"
+        "group"                 ""
+        
+        "name"                  "Admin mother zombie"
+        "description"           "+HP regen | +Speed | +Jump | -Knockback"
+        
+        // Model
+        "model_path"            "models/player/zh/zh_zombie003.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          "overlays/zr/zvision"
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "15.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "yes"
+        
+        "health"                "2000"
+        "health_regen_interval" "0.1"
+        "health_regen_amount"   "5"
+        "health_infect_gain"    "300"
+        "kill_bonus"            "4"
+        
+        "speed"                 "350"
+        "knockback"             "2.8"
+        "jump_height"           "1.5"
+        "jump_distance"         "1.3"
+    }
+    
+    // ------------------------------------------
+    //
+    // Human classes
+    //
+    // ------------------------------------------
+    "human_normal"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "1"
+        "team_default"          "yes"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "Normal Human"
+        "description"           "Default Counter-Strike settings"
+        
+        // Model
+        "model_path"            "default"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          ""
+        "nvgs"                  "no"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "0.0"
+        
+        // Player behaviour
+        "immunity_mode"         "infect"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "100"
+        "health_regen_interval" "0.0"
+        "health_regen_amount"   "0"
+        "health_infect_gain"    "0"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "0"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+    "ct_vip_female3"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "1"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "春"
+        "description"           "CF女角色"
+        
+        // Model
+        "model_path"            "models/player/ct_vip_female3.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          ""
+        "nvgs"                  "no"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "0.0"
+        
+        // Player behaviour
+        "immunity_mode"         "delay"
+        "immunity_amount"       "5.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "100"
+        "health_regen_interval" "0.0"
+        "health_regen_amount"   "0"
+        "health_infect_gain"    "0"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "0"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+	"ct_private_female"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "1"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "熏"
+        "description"           "CSOL女角色"
+        
+        // Model
+        "model_path"            "models/player/ct_private_female.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          ""
+        "nvgs"                  "no"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "0.0"
+        
+        // Player behaviour
+        "immunity_mode"         "delay"
+        "immunity_amount"       "10.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "100"
+        "health_regen_interval" "0.0"
+        "health_regen_amount"   "0"
+        "health_infect_gain"    "0"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "0"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }	
+	
+	"umbrella"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "1"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "保护伞公司警卫"
+        "description"           "Umbrella Company Guard"
+        
+        // Model
+        "model_path"            "models/player/umbrella.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          ""
+        "nvgs"                  "yes"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "0.0"
+        
+        // Player behaviour
+        "immunity_mode"         "kill"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "100"
+        "health_regen_interval" "0.0"
+        "health_regen_amount"   "0"
+        "health_infect_gain"    "0"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "0"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+	
+	"t_vip_female4"
+    {
+        // General
+        "enabled"               "yes"
+        "team"                  "1"
+        "team_default"          "no"
+        "flags"                 "0"
+        "group"                 ""
+        
+        "name"                  "晴雅"
+        "description"           "CF女角色"
+        
+        // Model
+        "model_path"            "models/player/t_vip_female4.mdl"
+        "alpha_initial"         "255"
+        "alpha_damaged"         "255"
+        "alpha_damage"          "0"
+        
+        // Hud
+        "overlay_path"          ""
+        "nvgs"                  "no"
+        "fov"                   "90"
+        
+        // Effects
+        "has_napalm"            "yes"
+        "napalm_time"           "0.0"
+        
+        // Player behaviour
+        "immunity_mode"         "none"
+        "immunity_amount"       "0.0"
+        "no_fall_damage"        "no"
+        
+        "health"                "100"
+        "health_regen_interval" "0.0"
+        "health_regen_amount"   "0"
+        "health_infect_gain"    "0"
+        "kill_bonus"            "2"
+        
+        "speed"                 "300"
+        "knockback"             "0"
+        "jump_height"           "1.0"
+        "jump_distance"         "1.0"
+    }
+}

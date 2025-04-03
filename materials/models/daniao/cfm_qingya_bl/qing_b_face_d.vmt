@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"models\daniao\CFM_Qingya_BL\Qing_B_Face_D"
+	"$bumpmap" 				"models\daniao\CFM_Qingya_BL\Qing_B_Face_n"
+
+	"$envmaptint"		"[ 0.300000 0.300000 0.300000 ]"
+	"$envmapcontrast"	0.50000
+	"$envmapsaturation"	0.500000
+	"$envmapboost"		0.25000
+
+	"$phong"		0             
+	"$phongboost"		1.6000     
+	"$phongexponent"	8.000000     
+	"$phongFresnelboost"	2.000000     
+	"$phongFresnelexponent"	3.000000      
+	"$phongtint"   "[1 1 1]"	     
+
+	"$bumpscale"		1.000000
+
+}
+

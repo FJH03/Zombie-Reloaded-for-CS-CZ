@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+	"goldendeagle"
+	{
+		"en"		"黄金沙鹰"
+		"es"		"Deagle Dorada Ardiente"
+	}
+	"you bought goldendeagle"
+	{
+		"en"		"现在你拥有了黄金沙鹰可以带来更大的伤害和点燃它们！"
+		"es"		"Ahora tienes una Deagle DORADA ARDIENTE que produce mas damage y quema!"
+	}
+
+}

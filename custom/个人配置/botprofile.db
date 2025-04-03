@@ -1,0 +1,413 @@
+//---------------------------------------------------------------------------
+// BotProfile.db
+// Author: [CNSR] FJH_03
+// This database defines bot "personalities". 
+// Feel free to edit it and define your own bots.
+//
+
+//----------------------------------------------------------------------------
+
+//
+// All profiles begin with this data and overwrite their own
+//
+Default
+	Skill = 75
+	Aggression = 100
+	Teamwork = 80
+	WeaponPreference = none
+	Cost = 5
+	Difficulty = NORMAL
+	VoicePitch = 100
+	Skin = 0
+End
+
+//----------------------------------------------------------------------------
+
+//
+// These templates inherit from Default and override with their values
+// The name of the template defines a type that is used by individual bot profiles
+//
+
+// weapon preference templates
+Template Rifle
+	WeaponPreference = m4a1
+	WeaponPreference = ak47
+	WeaponPreference = famas
+ 	WeaponPreference = galil
+End
+
+Template RifleT
+	WeaponPreference = ak47
+	WeaponPreference = m4a1
+	WeaponPreference = galil
+	WeaponPreference = famas
+End
+
+Template Punch
+	WeaponPreference = aug
+	WeaponPreference = sg552
+	WeaponPreference = famas
+	WeaponPreference = galil
+End
+
+Template PunchT
+	WeaponPreference = sg552
+	WeaponPreference = aug
+	WeaponPreference = galil
+	WeaponPreference = famas
+End
+
+Template Sniper
+	WeaponPreference = awp
+	WeaponPreference = scout
+End
+
+Template Power
+	WeaponPreference = m249
+End
+
+Template Shotgun
+	WeaponPreference = xm1014
+	WeaponPreference = m3
+End
+
+Template Spray
+	WeaponPreference = p90
+	WeaponPreference = ump45
+	WeaponPreference = mp5
+	WeaponPreference = mac10
+	WeaponPreference = tmp
+End
+
+// skill templates
+Template Fair
+	Skill = 75
+	Aggression = 100
+	ReactionTime = 0.1
+	AttackDelay = 0.2
+	Difficulty = EASY+NORMAL
+	VoicePitch = 70
+End
+
+Template Easy
+	Skill = 75
+	Aggression = 100
+	ReactionTime = 0.1
+	AttackDelay = 0.2
+	Difficulty = EASY
+	VoicePitch = 70
+End
+
+//----------------------------------------------------------------------------
+//
+// These are the individual bot profiles, which inherit first from 
+// Default and then the specified Template(s), in order
+//
+
+Fair+Power "cccp| =LENIN="
+	Skin = 3
+End
+
+Fair+Shotgun Player 
+	Skill = 45
+	Skin = 4
+End
+
+Fair+Spray XXX
+	Skill = 45
+	Skin = 3
+End
+
+Fair AK47
+	Skill = 85
+	WeaponPreference = ak47
+	Skin = 4
+End
+
+Fair cs_s_mod
+	Clan = [YOUTUBE]
+	WeaponPreference = sg552
+	WeaponPreference = sg550
+	Skin = 5
+End
+
+Fair+RifleT qay
+	Clan = [Cloudy7]
+	Skill = 70
+	Skin = 1
+End
+
+Fair+Punch CSEXTREME_PLAYERS
+	Skin = 5
+End
+
+Fair+RifleT ZET
+	Clan = [Cloudy7]
+	Skin = 1
+End
+
+Easy+Shotgun Goose-Plan
+	Skin = 3
+End
+
+Easy+PunchT ByALKSllllll-PH
+	Skill = 70
+	Skin = 5
+End
+
+Easy+Power Counter-Strike
+	Skin = 2
+End
+
+Easy+Shotgun XYL[i]gaN4eG
+	Skin = 3
+End
+
+Easy+Spray Shinji
+	Skill = 45
+	Skin = 2
+End
+
+Easy+PunchT DeadpoolTop2
+	Skin = 3
+End
+
+Easy "dope THEMAULER"
+	WeaponPreference = galil
+	WeaponPreference = scout
+	Skin = 4
+End
+
+Easy+Spray Fullserver
+	Skill = 45
+	WeaponPreference = m4a1
+	Skin = 3
+End
+
+Easy+Shotgun Ronel.UK
+	Skin = 3
+End
+
+Easy+Punch OuSsAmA/TuniS
+	Skin = 2
+End
+
+Easy+PunchT JVEXTREEM
+	Skill = 45
+	Skin = 2
+End
+
+Fair SXY-E.YT
+	Clan = [KILLER]
+	Skill = 100
+	WeaponPreference = awp
+	WeaponPreference = m4a1
+	WeaponPreference = sg552
+	ReactionTime = 0
+	AttackDelay = 0
+	Team = CT
+	Skin = 3
+End
+
+Fair+Sniper LMM_ZXL.
+	Clan = [KILLER]
+	Skin = 4
+End
+
+Fair+Spray dur5t
+	Clan = [RWL]
+	Skill = 85
+	Skin = 4
+End
+
+Fair+PunchT "aKTuBHbIu roMeC"
+	Clan = [RWL]
+	Skill = 85
+	WeaponPreference = ak47
+	Skin = 5
+End
+
+Fair+Punch "Ba3eJIuHoBbIu My>I<uK"
+	Clan = [RWL]
+	Skill = 85
+	Skin = 2
+End
+
+Fair+Sniper "Deg omMOPO3"
+	Clan = [RWL]
+	Skill = 85
+	Skin = 5
+End
+
+Fair "BoBa KoMaTo3HuK"
+	Clan = [RWL]
+	Skill = 85
+	WeaponPreference = m4a1
+	Skin = 4
+End
+
+Fair+PunchT LLIHULLEJIb
+	Clan = [RWL]
+	Skill = 85
+	Skin = 5
+End
+
+Easy G3SG1
+	Clan = [VLZ]
+	WeaponPreference = g3sg1
+	WeaponPreference = aug
+	Skin = 2
+End
+
+Easy+Sniper AWP
+	Clan = [VLZ]
+	Skin = 4
+End
+
+Easy+Punch assassin
+	Clan = [VLZ]
+	Skin = 5
+End
+
+Easy+RifleT EliteTeam_Lucifer
+	Skin = 4
+End
+
+Easy+Rifle EliteTeam_xingnuan
+	Skill = 70
+	Skin = 1
+End
+
+Easy+Rifle rsbsn
+	Clan = [WG]
+	Skill = 85
+	Skin = 2
+End
+
+Easy+RifleT LANDE
+	Clan = [WG]
+	Skill = 85
+	Skin = 3
+End
+
+Easy+Sniper XIAOMAOMI
+	Clan = [WG]
+	Skin = 1
+End
+
+Fair+RifleT e1Zzzy
+	Clan = [Cloudy7]
+	Skill = 100
+	Skin = 4
+End
+
+Fair+RifleT Ben.ladeng
+	Clan = [Cloudy7]
+	Skill = 100
+	Skin = 2
+End
+
+Easy+Rifle "XAC WAC VAC"
+	Clan = [Cloudy7]
+	Skin = 4
+End
+
+Easy+RifleT 17_Xtreme
+	Clan = [Cloudy7]
+	Skill = 85
+	Skin = 3
+End
+
+Easy+Rifle ASIATANK
+	Clan = [Cloudy7]
+	Skin = 1
+End
+
+Easy+Sniper ClearLoveS7
+	Clan = [Cloudy7]
+	Skill = 70
+	Skin = 5
+End
+
+Easy+Rifle SG550Android
+	Clan = [CNSR]
+	Skill = 70
+	Skin = 1
+End
+
+Easy+RifleT Milio
+	Clan = [CNSR]
+	Skill = 85
+	Skin = 3
+End
+
+Easy+RifleT 2947DJ
+	Clan = [CNSR]
+	Skill = 85
+	Skin = 1
+End
+
+Easy+Rifle RUNZI
+	Clan = [CNSR]
+	Skill = 70
+	Skin = 1
+End
+
+Easy+Rifle L
+	Clan = [CNSR]
+	Skill = 70
+	Skin = 2
+End
+
+Easy+Rifle xiaodo
+	Clan = [CNSR]
+	Skill = 85
+	Skin = 1
+End
+
+Easy+Rifle N@.l
+	Clan = [CNSR]
+	Skill = 70
+	Skin = 2
+End
+
+Easy huanmie
+	Clan = [CNSR]
+	WeaponPreference = famas
+	WeaponPreference = ak47
+	WeaponPreference = mac10
+	Skin = 1
+End
+
+Easy+Rifle wawyx
+	Clan = [CNSR]
+	Skin = 4
+End
+
+Easy CN-Ling
+	Clan = [CNSR]
+	WeaponPreference = galil
+	WeaponPreference = mp5
+	Skin = 2
+End
+
+Easy+Power chinese
+	Skill = 45
+	Skin = 5
+End
+
+Easy+RifleT "player0"
+	Skin = 5
+End
+
+Easy+Rifle "JADE BROWN"
+	Clan = [CNSR]
+	Skin = 1
+End
+
+Easy+Rifle nyh_09
+	Clan = [CNSR]
+	Skin = 5
+End
+
+END

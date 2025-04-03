@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"cunbaowei\cunbaowei1\cunbaowei2/st"
+						"$bumpmap"		"cunbaowei\cunbaowei1\cunbaowei2/stfaxian"
+	
+	"$envmaptint"		"[ 0.300000 0.300000 0.300000 ]"
+	"$envmapcontrast"	0.50000
+	"$envmapsaturation"	0.500000
+	"$envmapboost"		0.25000
+
+	"$phong"		0            //荤侩 1, 救荤�?0
+	"$phongboost"		1.6000       //碍档
+	"$phongexponent"	8.000000     //裹困
+	"$phongFresnelboost"	2.000000     //矫急俊 蝶弗 堡琶
+	"$phongFresnelexponent"	3.000000     //裹困  
+	"$phongtint"   "[1 1 1]"	     // 掐瓤苞俊 歹秦�?(R,G,B)�?
+
+	"$bumpscale"		1.000000
+}

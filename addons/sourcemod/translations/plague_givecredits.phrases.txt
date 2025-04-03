@@ -1,0 +1,30 @@
+﻿"Phrases"
+{
+	"[SM] Utiliza: sm_dar <#userid|nombre> [cantidad]"
+	{
+		"en"		"[SM] Use: sm_givecredits <#userid|name> [amount]"
+		"es"		"[SM] Utiliza: sm_givecredits <#userid|nombre> [cantidad]"
+	}
+	"Tu no tienes tantos creditos!"
+	{
+		"en"		"你没有足够的ZP积分！"
+		"es"		"Tu no tienes tantos creditos!"
+	}
+	"No puedes dar menos de 0 creditos!"
+	{
+		"en"		"你不能给低于零的积分数量！"
+		"es"		"No puedes dar menos de 0 creditos!"
+	}
+	"Entregados"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"你将{1}个ZP积分送给了玩家 {2}"
+		"es"		"Entregados {1} creditos al jugador {2}"
+	}
+	"Te ha Entregado"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"玩家 {2} 送给你{1}个ZP积分"
+		"es"		"Te ha Entregado {1} creditos el jugador {2}"
+	}
+}

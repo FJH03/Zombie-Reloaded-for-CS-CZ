@@ -1,0 +1,18 @@
+﻿"Phrases"
+{
+	"fury"
+	{
+		"en"		"无敌 5s"
+		"es"		"Furia INVULNERABLE 5 segundos"
+	}
+	"you bought fury"
+	{
+		"en"		"现在你在5s内无敌！"
+		"es"		"Ahora eres INVULNERABLE durante 5 segundos!"
+	}
+	"Ya no eres INVULNERABLE!"
+	{
+		"en"		"现在你的无敌状态消失了！"
+		"es"		"Ya no eres INVULNERABLE!"
+	}
+}

@@ -1,0 +1,23 @@
+﻿"Phrases"
+{
+	"zombie_smoke"
+	{
+		"en"		"僵尸可放的毒雾"
+	}
+	"you bought zombie_smoke"
+	{
+		"en"		"你购买了僵尸毒雾，按鼠标右键可以释放！"
+	}
+	"you must be alive"
+	{
+		"en"        "你必须存活才能使用"
+	}
+	"only zombie can use this"
+	{
+		"en"        "只有僵尸才能释放毒雾"
+	}
+	"the smoke has been released"
+	{
+		"en"        "毒雾被释放出来了！"
+	}
+}

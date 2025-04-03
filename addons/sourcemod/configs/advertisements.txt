@@ -1,0 +1,52 @@
+	// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+	"1"
+	{
+		"hint"      "欢迎来此游玩！下面是我们的QQ群聊，你可以加入讨论！\nCounter-Strike CNSR™ CLAN，QQ群：529203415\nCNSR™ 起源引擎主群，QQ群：877105627\nXDG游戏服务器交流群，QQ群：725354886"
+	}
+    "2"
+    {
+        "chat"		"{green}服务器指令： {blue}你可以在聊天区域输入 {orangered}!mymenu {blue}或者在控制台输入 {orangered}bind key sm_mymenu {blue}用来通过自定义按键打开快捷菜单！"
+    }
+    "3"
+    {
+        "chat"		"{red}服务器守则：{orchid}禁止恶意破坏别人所放道具2禁止道具恶意卡队友3禁止在服务器辱骂他人4禁止恶意仇杀5禁止故意贴边反爪-违反服务器守则将会给予封禁处理！"
+    }
+    "4"
+    {
+        "chat"		"{green}服务器公告：{orchid}本服务器隶属于{blue}CNSR{orchid}战队，为公益服务器，服主：{cyan}FJH_03{orchid}，QQ号：{orangered}1297573948{orchid}，有问题可以向腐竹反馈，祝您玩得愉快(^_^)"
+    }   
+    "5"
+    {
+        "chat"		"{red}服务器守则：{orchid}服务器内禁止使用{crimson}连跳脚本{orchid}，{crimson}鼠标宏连跳{orchid}，{crimson}自动连跳{orchid}等辅助工具进行游戏，发现第一次警告第二次封禁！"
+    }
+	"6"
+	{
+		"chat"      "{green}服务器鸣谢： {orchid}特别感谢 {cyan}[CNSR] FJH_03  {orangered}[CNSR] Oreo922 {royalblue}[CNSR] xiaodo {orchid}三位服主对本服务器提供的支持与帮助！"
+	}
+	"7"
+	{
+		"menu"      "服务器特色：支持Windows，Linux，Android三个平台的客户端！"
+	}
+	"8"
+	{
+		"chat"		"{green}服务器技巧：{blue}为了一些特殊需求，对所有玩家间的实体碰撞不做处理，你可以{orchid}连点{orangered}计分板{blue}暂时关闭这个碰撞！"
+	}
+}

@@ -1,0 +1,18 @@
+﻿"Phrases"
+{
+	"Has recibido 1 credito gratis! cada minuto recibiras 1 credito gratuito"
+	{
+		"en"	"你得到一个免费的ZP积分，每分钟你都会收到另一个"
+		"es"	"Has recibido 1 credito gratis! cada minuto recibiras 1 credito gratuito"
+	}
+	"Mata jugadores para conseguir creditos"
+	{
+		"en"	"杀死玩家来获取ZP积分"
+		"es"    "Mata jugadores para conseguir creditos"
+	}
+	"Escribe !premios para gastar tus creditos en premios"
+	{
+		"en"	"输入 !zp 在聊天框中来消费你的ZP积分作为奖励"
+		"es"	"Escribe !zp para gastar tus creditos en premios"
+	}
+}

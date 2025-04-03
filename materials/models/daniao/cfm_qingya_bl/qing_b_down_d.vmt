@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"models\daniao\CFM_Qingya_BL\Qing_B_Down_D"
+	"$bumpmap" 				"models\daniao\CFM_Qingya_BL\Qing_B_Down_N"
+    
+	//$color2 "[2.8 2.8 2.8]"
+	
+
+	"$phong" 				"0"
+	"$phongboost"				"0.3"
+	"$phongalbedotint" 			"1"
+	"$phongalbedoboost" 			".75"
+	"$phongfresnelranges"			"[.6 .8 .5]"
+	"$normalmapalphaenvmapmask" 		"1"
+	"$envmap" 				"env_cubemap"
+	"$envmapfresnel" 			"1"
+	"$envmapFresnelMinMaxExp"		"[1 1 1]"
+	"$envmaptint" 				"[.01 .01 .01]"
+	
+	"$rimlight"               "1"
+	"$rimlightexponent"       "1"
+	"$rimlightboost"          "2"
+	"$nocull" 				"1"
+	"$alphatest" 				"1"
+	$alphatestreference .99
+	"$allowalphatocoverage" 1
+}
+		

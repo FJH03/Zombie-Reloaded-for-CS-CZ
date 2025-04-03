@@ -1,0 +1,234 @@
+// ============================================================================
+//
+//                              ZOMBIE:RELOADED
+//                            Model configuration
+//
+// See Model Configuration (3.5) section in the manual for detailed info.
+//
+// ============================================================================
+//
+// SHORT DESCRIPTIONS
+//
+// Attribute:   Description:
+// ----------------------------------------------------------------------------
+// name     Name of model file, without extension.
+// path     Path to model files. MUST end with "/".
+// team     Model type:
+//              "zombies"
+//              "humans"
+// access   Access type:
+//              "public"        - Everyone can use the model.
+//              "admins"        - Model can only be used by admins.    
+//              "hidden"        - Model is excluded from public random selections.
+//              "motherzombies" - Model can only be used by mother zombies.
+//              "group"         - Use group authentication.
+// group    If access is "group": A SourceMod group name. Otherwise blank ("").
+
+"models"
+{
+    "corpse002"
+    {
+        "name"      "corpse002"
+        "path"      "models/zombies/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"zh_charple001"
+    {
+        "name"      "zh_charple001"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }	
+	
+	"ct_vip_female3"
+    {
+        "name"      "ct_vip_female3"
+        "path"      "models/player/"
+        "team"      "humans"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"ct_private_female"
+    {
+        "name"      "ct_private_female"
+        "path"      "models/player/"
+        "team"      "humans"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"umbrella"
+    {
+        "name"      "umbrella"
+        "path"      "models/player/"
+        "team"      "humans"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"t_vip_female4"
+    {
+        "name"      "t_vip_female4"
+        "path"      "models/player/"
+        "team"      "humans"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"zh_corpse002"
+	{
+		"name"      "zh_corpse002"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+	}
+	
+	"half_zombie_v2"
+    {
+        "name"      "half_zombie_v2"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"imhotep"
+    {
+        "name"      "imhotep"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+
+   	"classic"
+    {
+        "name"      "classic"
+        "path"      "models/zombies/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"charple001"
+    {
+        "name"      "charple001"
+        "path"      "models/zombies/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"crunch"
+    {
+        "name"      "crunch"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"corpse"
+    {
+        "name"      "corpse"
+        "path"      "models/zombies/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"poison_v2"
+    {
+        "name"      "poison_v2"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+
+	
+	"fastzombie_v1"
+    {
+        "name"      "fastzombie_v1"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"slow_2"
+    {
+        "name"      "slow_2"
+        "path"      "models/zombies/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+
+    "zh_zombie003"
+    {
+        "name"      "zh_zombie003"
+        "path"      "models/player/zh/"
+        "team"      "zombies"
+        "access"    "motherzombies"
+        "group"     ""
+    }
+    
+    "t_guerilla"
+    {
+        "name"      "t_guerilla"
+        "path"      "models/player/ics/hellknight_red/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+	
+	"t_guerilla_1"
+    {
+        "name"      "t_guerilla_1"
+        "path"      "models/player/ics/hellknight_red/"
+        "team"      "zombies"
+        "access"    "public"
+        "group"     ""
+    }
+    
+    // Special model examples:
+    // -----------------------
+    
+    // Only admins can use this zombie model.
+    //"admin_zombie"
+    //{
+    //    "name"      "1337model"
+    //    "path"      "models/player/adminmodels/"
+    //    "team"      "zombies"
+    //    "access"    "admins"
+    //    "group"     ""
+    //}
+    
+    // Only members of the zr_vip group in SourceMod can use this human model.
+    //"vip_human"
+    //{
+    //    "name"      "vipmodel"
+    //    "path"      "models/player/vip/"
+    //    "team"      "humans"
+    //    "access"    "group"
+    //    "group"     "zr_vip"
+    //}
+    
+    // This model will be excluded from public random selections. Only classes
+    // that use "random_hidden" or explicit specify this model will be able to use it.
+    //"hidden"
+    //{
+    //    "name"      "hiddenmodel"
+    //    "path"      "models/player/"
+    //    "team"      "humans"
+    //    "access"    "hidden"
+    //    "group"     ""
+    //}
+}

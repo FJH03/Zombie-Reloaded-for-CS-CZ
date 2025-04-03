@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/zombie_dog/slow_fur_2"
+
+	"$translucent" 1
+ 
+ 
+}

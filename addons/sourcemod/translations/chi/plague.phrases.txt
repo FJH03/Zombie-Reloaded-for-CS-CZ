@@ -1,0 +1,71 @@
+﻿"Phrases"
+{
+	"Escribe !premios para gastar tus creditos en premios"
+	{
+		"chi"		"输入 {lightgreen}!awards {olive}来将你的ZP积分用于奖励"
+	}
+	"Tus creditos"
+	{
+		"#format"	"{1:i}"
+		"chi"		"你的ZP积分: {1}"
+	}
+	"Tus creditos actuales son"
+	{
+		"#format"	"{1:i}"
+		"chi"		"你现在的ZP积分: {1}"
+	}
+
+	"Este premio no esta disponible para tu equipo"
+	{
+		"chi"		"此奖励不适用于您的团队"
+	}
+	"Necesitas creditos"
+	{
+		"#format"	"{1:i},{2:i}"
+		"chi"		"你的ZP积分: {1} 你没有足够的ZP积分，你需要 {2}"
+	}
+	"Pero si estas muerto"
+	{
+		"chi"		"你死了。。。愚蠢的！！xDD"
+	}
+	"ZombiePlague by Franug. Tus creditos"
+	{
+		"#format"	"{1:i}"
+		"chi"		"僵尸瘟疫作者:Franug. 你的ZP积分: {1}"
+	}
+
+	"No puedes comprar cosas siendo un ser especial"
+	{
+		"chi"		"作为一个特殊类别，你买不到东西。"
+	}
+	"Tienes que estar vivo para poder comprar premios"
+	{
+		"chi"		"你需要活着才能买到奖品"
+	}
+	"Entregados"
+	{
+		"#format"			"{1:i},{2:s}"
+		"chi"		"ZP积分由 {1} 送给 {2}"
+	}
+	"Te ha Entregado"
+	{
+		"#format"			"{1:i},{2:s}"
+		"chi"		"你收到ZP积分 {1} 来自玩家 {2}"
+	}
+	"Humanos"
+	{
+		"chi"		"人类"
+	}
+	"Zombies"
+	{
+		"chi"		"丧尸"
+	}
+	"Ambos"
+	{
+		"chi"		"无限制"
+	}
+	"Creditos"
+	{
+		"chi"		"ZP积分"
+	}
+}

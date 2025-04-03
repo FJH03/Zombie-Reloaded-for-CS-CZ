@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"cunbaowei\cunbaowei1\cunbaowei2/fa"
+					"$bumpmap"		"cunbaowei\cunbaowei1\cunbaowei2/fafaxian"
+	
+				 		               $translucent  1
+	 $nocull 1
+	 $alphatest 1
+	 $ALPHATESTREFERENCE	0.1
+
+}

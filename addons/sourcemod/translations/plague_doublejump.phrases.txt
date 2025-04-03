@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+	"doublejump"
+	{
+		"en"		"二段跳跃"
+		"es"		"Doble salto"
+	}
+	"Ahora tienes DOBLE SALTO y puedes saltar en el aire!"
+	{
+		"en"		"现在你可以跳起来踩空气再跳一次！"
+		"es"		"Ahora tienes DOBLE SALTO y puedes saltar en el aire!"
+	}
+
+}

@@ -1,0 +1,1068 @@
+﻿"Phrases"
+{
+	// ===========================
+	// General (base)
+	// ===========================
+
+	"General round objective"
+	{
+		"chi"		"参战双方为 @green人类 @default和 @green丧尸@default，丧尸的目标是通过它们的利爪来感染所有人类。"
+	}
+
+	"General zmenu reminder"
+	{
+		"chi"		"要获取有关 Zombie:Reloaded 插件命令的帮助，请在聊天界面中键入 \"{1}{2}\" 。"
+	}
+
+	// ===========================
+	// Generic (base)
+	// ===========================
+
+	// General
+
+	"Literal text"
+	{
+		"chi"		"{1}"
+	}
+	// Set string to "{1}" for all languages.
+
+	"Feature is disabled"
+	{
+		"chi"		"当前服务器主机禁用了此功能。"
+	}
+
+	"Not enough money"
+	{
+		"chi"		"你没有足够的钱来购买此物品。"
+	}
+
+	"Must be player"
+	{
+		"chi"		"此功能仅保留给玩家。"
+	}
+
+	"Must be admin"
+	{
+		"chi"		"此功能仅供管理员使用。"
+	}
+
+	"No access to command"
+	{
+		"chi"		"你无权使用此命令。"
+	}
+
+	"Must be alive"
+	{
+		"chi"		"此功能要求玩家处于存活状态。"
+	}
+
+	"Must be dead"
+	{
+		"chi"		"此功能要求玩家处于死亡状态。"
+	}
+
+	"Must be on team"
+	{
+		"chi"		"此功能要求你在团队中。"
+	}
+
+	"Must be zombie"
+	{
+		"chi"		"此功能要求你已被感染为丧尸。"
+	}
+
+	"Must be human"
+	{
+		"chi"		"此功能要求你是人类状态（未被感染）。"
+	}
+	
+	"Increase by"
+	{
+		"chi"		"通过 {1} 增加"
+	}
+
+	"Decrease by"
+	{
+		"chi"		"通过 {1} 减少"
+	}
+
+	"Current Value"
+	{
+		"chi"		"当前值："
+	}
+
+	"Zombie"
+	{
+		"chi"		"丧尸"
+	}
+
+	"Human"
+	{
+		"chi"		"人类"
+	}
+
+	// Menu
+
+	"Menu empty"
+	{
+		"chi"		"（空）"
+	}
+
+	// ===========================
+	// Config (core)
+	// ===========================
+
+	// Commands
+
+	"Config command reload syntax"
+	{
+		"chi"		"语法： zr_reloadconfig <file alias1> [file alias2] ... - 重新加载配置文件。"
+	}
+
+	"Config command reload related commands"
+	{
+		"chi"		"相关命令： zr_config_reloadall"
+	}
+
+	"Config command reload syntax aliases"
+	{
+		"chi"		"文件别名：\n* \"{1}\"\n* \"{2}\"\n* \"{3}\"\n* \"{4}\"\n* \"{5}\""
+	}
+
+	"Config command reload invalid"
+	{
+		"chi"		"无效的文件别名： \"{1}\""
+	}
+
+	"Config command reload not loaded"
+	{
+		"chi"		"配置文件 \"{1}\" 无法加载。 （被禁用或无效的文件内容。）"
+	}
+
+	"Config command reload all stats begin"
+	{
+		"chi"		"重新加载所有Zombie：Reloaded配置文件...\n------------------------------------------------"
+	}
+
+	"Config command reload all stats successful"
+	{
+		"chi"		"\"{1}\" - 成功。"
+	}
+
+	"Config command reload all stats failed"
+	{
+		"chi"		"\"{1}\" - 失败 （被禁用或无效的文件内容。）"
+	}
+
+	// ===========================
+	// Log (core)
+	// ===========================
+
+	"Log Generic Flag"
+	{
+		// Max length: 19 characters.
+		"chi"		"通用标志："
+	}
+
+	"Log Value"
+	{
+		// Max length: 7 characters:
+		"chi"		"值："
+	}
+
+	"Log Module"
+	{
+		// Max length: 23 characters:
+		"chi"		"模块："
+	}
+
+	"Log Status"
+	{
+		"chi"		"过滤器状态："
+	}
+
+	"Log Module Filtering"
+	{
+		"chi"		"模块过滤："
+	}
+
+	"Log Module Short Name"
+	{
+		"chi"		"简称："
+	}
+
+	// ===========================
+	// Classes
+	// ===========================
+
+	// General
+
+	"Classes admin mode enabled"
+	{
+		"chi"		"管理员模式已启用！"
+	}
+
+	"Classes random assignment"
+	{
+		"chi"		"你已被随机分配给 @green\"{1}\" @defaultclass."
+	}
+
+	// Center Text/HUD
+
+	"Classes overlay toggle"
+	{
+		"chi"		"类叠加切换命令： {1}"
+	}
+
+	// Menu
+
+	"Classes menu title"
+	{
+		"chi"		"类·选择："
+	}
+
+	"Classes menu active"
+	{
+		"chi"		"活动： {1}"
+	}
+
+	"Classes menu next"
+	{
+		"chi"		"下一个生成： {1}"
+	}
+
+	"Classes menu select zombie"
+	{
+		"chi"		"选择丧尸列表"
+	}
+
+	"Classes menu select human"
+	{
+		"chi"		"选择人类类别"
+	}
+
+	"Classes menu select admin"
+	{
+		"chi"		"选择管理模式类别"
+	}
+
+	"Classes menu admin mode toggle"
+	{
+		"chi"		"切换管理模式"
+	}
+
+	"Classes Menu Team Select Title"
+	{
+		"chi"		"选择阵营："
+	}
+
+	"Classes Menu Zombies"
+	{
+		"chi"		"丧尸"
+	}
+
+	"Classes Menu Humans"
+	{
+		"chi"		"人类"
+	}
+
+	"Classes Menu Multiplier Select Title"
+	{
+		"chi"		"选择倍增器："
+	}
+
+	"Classes Menu Adjust Value"
+	{
+		"chi"		"调整值：:"
+	}
+
+	// Attributes
+
+	"Classes Attrib Napalm Time"
+	{
+		"chi"		"凝固汽油弹时间"
+	}
+
+	"Classes Attrib Health"
+	{
+		"chi"		"生命"
+	}
+
+	"Classes Attrib Regen Interval"
+	{
+		"chi"		"生命再生间隔"
+	}
+
+	"Classes Attrib Regen Amount"
+	{
+		"chi"		"再生生命值"
+	}
+
+	"Classes Attrib Infect Gain"
+	{
+		"chi"		"感染后生命增加值"
+	}
+
+	"Classes Attrib Speed"
+	{
+		"chi"		"奔跑速度"
+	}
+
+	"Classes Attrib Knockback"
+	{
+		"chi"		"击退"
+	}
+
+	"Classes Attrib Jump Height"
+	{
+		"chi"		"跳跃高度"
+	}
+
+	"Classes Attrib Jump Distance"
+	{
+		"chi"		"跳跃距离"
+	}
+
+	"Classes Selection Not Allowed"
+	{
+		"chi"		"不允许更改类。"
+	}
+
+	// ===========================
+	// Overlays (core)
+	// ===========================
+
+	"Overlays not supported"
+	{
+		"chi"		"阻止覆盖-检测到 DX{1} ( 需要 DX{2} )"
+	}
+
+	// ===========================
+	// Infect (core)
+	// ===========================
+
+	// General
+
+	"Infect infected"
+	{
+		"chi"		"您已被丧尸病毒感染！ 尽可能将病毒传递给其他人类。"
+	}
+
+	"Infect human"
+	{
+		"chi"		"仁慈的众神（我称为管理员）已经复活了你的灵魂，寻找掩护！"
+	}
+
+	"Infect disconnect"
+	{
+		"chi"		"最后一个丧尸已离开游戏，并将丧尸病毒传染给了您。"
+	}
+
+	// Center Text
+
+	"Infect countdown"
+	{
+		"chi"		"首次病毒感染将在第 {1} 秒后出现！"
+	}
+
+	// Menu
+
+	"Infect menu clients title"
+	{
+		"chi"		"僵尸管理\n 感染切换：\n[] = 已感染"
+	}
+
+	// Commands
+
+	"Infect command infect syntax"
+	{
+		"chi"		"感染一个玩家。用法： zr_infect <filter> [respawn - 1/0]"
+	}
+
+	"Infect command human syntax"
+	{
+		"chi"		"将丧尸玩家恢复为人类。 用法： zr_human <filter> [respawn - 1/0] [protect - 1/0]"
+	}
+
+	"Infect command infect successful"
+	{
+		"chi"		"玩家 @green{1} @defaulthas 被病毒感染。"
+	}
+
+	"Infect command infect mother successful"
+	{
+		"chi"		"玩家 @green{1} @defaulthas 被病毒感染为母体丧尸。"
+	}
+
+	"Infect command infect unsuccessful"
+	{
+		"chi"		"玩家 @green{1} @defaultis 已经是丧尸了。"
+	}
+
+	"Infect command human successful"
+	{
+		"chi"		"玩家 @green{1} @defaulthas 被成功治愈，恢复为人类。"
+	}
+
+	"Infect command human unsuccessful"
+	{
+		"chi"		"玩家 @green{1} @defaultis 已经是人类了。"
+	}
+
+	// ===========================
+	// Damage (core)
+	// ===========================
+
+	"Damage suicide intercept"
+	{
+		"chi"		"自杀企图被拦截。"
+	}
+
+	// ===========================
+	// Menu (core)
+	// ===========================
+
+	// General
+
+	"Menu main title"
+	{
+		"chi"		"ZR 命令：\n 在聊天界面中键入带有 \"{1}\" 或 \"{2}\" (quiet) 的前缀命令。"
+	}
+
+	"Menu main zadmin"
+	{
+		"chi"		"ZAdmin - 打开管理菜单"
+	}
+
+	"Menu main zclass"
+	{
+		"chi"		"ZClass - 配置类的设置"
+	}
+
+	"Menu main zcookies"
+	{
+		"chi"		"ZCookies - 在此处切换个人ZR插件设置"
+	}
+
+	"Menu main zspawn"
+	{
+		"chi"		"ZSpawn - 延迟加入吗？ 与此同时生成"
+	}
+
+	"Menu main ztele"
+	{
+		"chi"		"ZTele - 卡住？ 传送回去生成"
+	}
+
+	"Menu main zhp"
+	{
+		"chi"		"ZHP - 显示丧尸的真实生命值"
+	}
+
+	"Menu main zmarket"
+	{
+		"chi"		"ZMarket - 在此处自定义加载项"
+	}
+
+	// ===========================
+	// Weapons (core)
+	// ===========================
+
+	// General
+
+	"Zombie cant use weapon"
+	{
+		"chi"		"丧尸不能使用武器！"
+	}
+
+	// Restrict
+
+	"Restrict weapon"
+	{
+		"chi"		"武器 @green\"{1}\" @defaulthas 被限制。"
+	}
+
+	"Unrestrict weapon"
+	{
+		"chi"		"武器 @green\"{1}\" @defaulthas 不受限制。"
+	}
+
+	"Restrict weapon stopped"
+	{
+		"chi"		"武器 @green\"{1}\" @defaultis 已经受到限制。"
+	}
+
+	"Unrestrict weapon stopped"
+	{
+		"chi"		"武器 @green\"{1}\" @default 没有受到任何限制。"
+	}
+
+	"Restrict weapon type"
+	{
+		"chi"		"@green\"{1}\" @default 类型的武器已被限制。"
+	}
+
+	"Unrestrict weapon type"
+	{
+		"chi"		"@green\"{1}\" @default 类型的武器不受限制。"
+	}
+
+	"Restrict weapon type stopped"
+	{
+		"chi"		"@green\"{1}\" @default 类型的武器已经全部被限制。"
+	}
+
+	"Unrestrict weapon type stopped"
+	{
+		"chi"		"@green\"{1}\" @default 类型的武器没有任何限制。"
+	}
+
+	"Restrict weapon untoggleable"
+	{
+		"chi"		"武器 @green\"{1}\" @default 可能没有改变其限制。"
+	}
+
+	"Weapon invalid"
+	{
+		"chi"		"武器 @green\"{1}\" @default 是无效的武器（类型）名称。"
+	}
+
+	"Weapon is restricted"
+	{
+		"chi"		"武器 @green{1} @default 被限制。"
+	}
+
+	// ZMarket
+
+	"Weapons zmarket buyzone"
+	{
+		"chi"		"您必须在购买区域中才能使用ZMarket。"
+	}
+
+	"Weapons zmarket purchase"
+	{
+		"chi"		"您已购买武器 @green{1}. @default 如果您的物品不足，请再次选择商品以购买弹药。"
+	}
+
+	"Weapons zmarket purchase max"
+	{
+		"chi"		"武器 @green{1} @default 的购买限制为 @green{2}@default. 请 等到您重生后再试一次。"
+	}
+
+	"Weapons zmarket grenade max"
+	{
+		"chi"		"您只能携带 {1} 颗这种类型的手榴弹。"
+	}
+
+	"Weapons zmarket auto-rebuy toggle on"
+	{
+		"chi"		"启用了自动重购功能，每次重生时都会自动为您购买装备。"
+	}
+
+	"Weapons zmarket auto-rebuy toggle off"
+	{
+		"chi"		"自动重购已被禁用。"
+	}
+
+	"Weapons zmarket updated loadout"
+	{
+		"chi"		"您目前无法购买武器，但是此武器已更新了您的装备量。"
+	}
+
+	"Weapons zmarket get current loadout"
+	{
+		"chi"		"更新了当前的装备量，请使用“重新购买”选项再次购买这些武器。"
+	}
+
+	// Commands
+
+	"Weapons command restrict syntax"
+	{
+		"chi"		"限制武器或武器类型。 用法： zr_restrict <weapon|weapon type> [weapon2|weapon type2] ..."
+	}
+
+	"Weapons command unrestrict syntax"
+	{
+		"chi"		"取消限制武器或武器类型。 用法：zr_unrestrict <weapon|weapon type> [weapon2|weapon type2] ..."
+	}
+
+	// Menu (Restrict)
+
+	"Weapons menu restrict main title"
+	{
+		"chi"		"武器管理"
+	}
+
+	"Weapons menu restrict main restrict"
+	{
+		"chi"		"武器限制"
+	}
+
+	"Weapons menu restrict main market"
+	{
+		"chi"		"ZMarket"
+	}
+
+	"Weapons menu restrict types title"
+	{
+		"chi"		"武器限制\n选择武器类型："
+	}
+
+	"Weapons menu restrict types weapon type title"
+	{
+		"chi"		"武器限制\n武器类型： {1}\n[] = Restricted（限制）"
+	}
+
+	"Weapons menu restrict types restrict all"
+	{
+		"chi"		"限制武器类型 {1}"
+	}
+
+	"Weapons menu restrict types unrestrict all"
+	{
+		"chi"		"不受限制的武器类型 {1}"
+	}
+
+	"Weapons menu restrict zmarket title"
+	{
+		"chi"		"ZMarket\n选择设置："
+	}
+
+	"Weapons menu restrict zmarket buyzone"
+	{
+		"chi"		"仅购买区域 - {1}"
+	}
+
+	// Menu (ZMarket)
+
+	"Weapons menu zmarket main title"
+	{
+		"chi"		"ZMarket\n选择一个选项："
+	}
+
+	"Weapons menu zmarket main get loadout"
+	{
+		"chi"		"保存当前（购买）设置"
+	}
+
+	"Weapons menu zmarket main view loadout"
+	{
+		"chi"		"查看保存的（购买）设置"
+	}
+
+	"Weapons menu zmarket main rebuy"
+	{
+		"chi"		"购买已保存的（购买）设置"
+	}
+
+	"Weapons menu zmarket main auto-rebuy"
+	{
+		"chi"		"自动重购： {1}"
+	}
+
+	"Weapons menu zmarket main weapons list"
+	{
+		"chi"		"购买武器"
+	}
+
+	"Weapons menu zmarket loadout title"
+	{
+		"chi"		"ZMarket\n我的当前设置：\n选择要清除的武器槽。\n注意：重购的是这些武器。"
+	}
+
+	"Weapons menu zmarket loadout primary"
+	{
+		"chi"		"主武器：{1}"
+	}
+
+	"Weapons menu zmarket loadout secondary"
+	{
+		"chi"		"副武器（手枪）： {1}"
+	}
+
+	"Weapons menu zmarket loadout melee"
+	{
+		"chi"		"刺刀：{1}"
+	}
+
+	"Weapons menu zmarket loadout projectile"
+	{
+		"chi"		"弹药：{1}"
+	}
+
+	"Weapons menu zmarket loadout explosive"
+	{
+		"chi"		"枪榴弹/手雷： {1}"
+	}
+
+	"Weapons menu zmarket loadout nvgs"
+	{
+		"chi"		夜视仪： {1}"
+	}
+
+	"Weapons menu zmarket loadout empty"
+	{
+		"chi"		"（无）"
+	}
+
+	"Weapons menu zmarket types title"
+	{
+		"chi"		"ZMarket\n选择武器类型"
+	}
+
+	"Weapons menu zmarket types weapon type title"
+	{
+		"chi"		"ZMarket\n武器类型： {1}\n[] = Restricted（限制）"
+	}
+
+	"Weapons menu zmarket types weapon info"
+	{
+		"chi"		"{1} (${2})\n剩余购买量： {3}"
+	}
+
+	"Weapons menu zmarket types weapon ammo"
+	{
+		"chi"		"弹药"
+	}
+
+	// ===========================
+	// Hitgroups (core)
+	// ===========================
+
+	// Menu
+
+	"Hitgroups menu hitgroups title"
+	{
+		"chi"		"命中部位分类管理\n命令： zr_hitgroup(_enable_all/_headshots_only)\n选择要切换的命中组："
+	}
+
+	"Hitgroups menu hitgroups enable all"
+	{
+		"chi"		"启用所有命中组"
+	}
+
+	"Hitgroups menu hitgroups headshots only"
+	{
+		"chi"		"仅爆头"
+	}
+
+	// Commands
+
+	"Hitgroups command syntax"
+	{
+		"chi"		"切换或设置是否可以杀伤丧尸的命中组。 用法： zr_hitgroup <命中组别名> [1/0]"
+	}
+
+	"Hitgroups command related commands"
+	{
+		"chi"		"相关命令： zr_hitgroup_enable_all, zr_hitgroup_headshots_only"
+	}
+
+	"Hitgroups command syntax names"
+	{
+		"chi"		"命中组名称："
+	}
+
+	"Hitgroups command successful on"
+	{
+		"chi"		"命中组伤害 \"{1}\" 已开启。"
+	}
+
+	"Hitgroups command successful off"
+	{
+		"chi"		"命中组伤害 \"{1}\" 已关闭。"
+	}
+
+	"Hitgroups command invalid hitgroup"
+	{
+		"chi"		"\"{1}\" 不是有效的命中组别名。键入 zr_hitgroup 以查看所有别名。"
+	}
+
+	"Hitgroups command enable all successful"
+	{
+		"chi"		"所有丧尸命中组均已启用伤害。"
+	}
+
+	"Hitgroups command headshots only successful"
+	{
+		"chi"		"丧尸现在只能被爆头杀伤。"
+	}
+
+	// ===========================
+	// ZAdmin (core)
+	// ===========================
+
+	"ZAdmin main title"
+	{
+		"chi"		"ZAdmin\n选择类别："
+	}
+
+	"ZAdmin main class multipliers"
+	{
+		"chi"		"类类乘数"
+	}
+
+	"ZAdmin main weapons"
+	{
+		"chi"		"武器管理"
+	}
+
+	"ZAdmin main hitgroups"
+	{
+		"chi"		"命中组管理"
+	}
+
+	"ZAdmin main zombie"
+	{
+		"chi"		"丧尸管理"
+	}
+
+	"ZAdmin main force zspawn"
+	{
+		"chi"		"强制 ZSpawn（产生）"
+	}
+
+	"ZAdmin main force ztele"
+	{
+		"chi"		"强制 ZTele（远程）"
+	}
+
+	// ===========================
+	// AntiStick (module)
+	// ===========================
+
+	// Commands
+
+	"AntiStick command set width syntax"
+	{
+		"chi"		"设置模型的外壳宽度。(参见 zr_antistick_list_models) 用法： zr_antistick_set_width <model/player> <width>"
+	}
+
+	"AntiStick command list models list"
+	{
+		"chi"		"玩家名称：                        模型：                                              外壳宽度：\n-------------------------------------------------------------------------------------------------------------"
+	}
+
+	"AntiStick command list models name"
+	{
+		"chi"		"{1} {2} {3}"
+	}
+
+	"AntiStick command set width successful"
+	{
+		"chi"		"模型的外壳宽度 \"{1}\" 已更改为 \"{2}.\""
+	}
+
+	"AntiStick command set width invalid model"
+	{
+		"chi"		"指定的模型/玩家无效： \"{1}\""
+	}
+
+	"AntiStick command set width invalid width"
+	{
+		"chi"		"指定的模型外壳宽度无效： \"{1}\""
+	}
+
+	// ===========================
+	// Spawn Protect (module)
+	// ===========================
+
+	// General
+
+	"Spawn protection begin"
+	{
+		"chi"		"存在丧尸，您在失去免疫力之前有 {1} 秒的时间可以找到安全的地方。"
+	}
+
+	"Spawn protection end"
+	{
+		"chi"		"您现在容易受到丧尸感染。"
+	}
+
+	// HUD
+
+	"Spawn Protect"
+	{
+		"chi"		"丧尸保护在 {1} 秒内结束。"
+	}
+
+	// ===========================
+	// ZCookies (module)
+	// ===========================
+
+	"ZCookies Menu main title"
+	{
+		"chi"		"ZCookies\n选择一个Cookie："
+	}
+
+	"ZCookies menu main auto-rebuy"
+	{
+		"chi"		"ZMarket 自动重购：{1}"
+	}
+
+	"ZCookies menu main zhp"
+	{
+		"chi"		"ZHP （生命值）显示： {1}"
+	}
+
+	"ZCookies menu main overlay"
+	{
+		"chi"		"人类/丧尸 类覆盖： {1}"
+	}
+
+	"ZCookies zmarket loadout"
+	{
+		"chi"		"ZMarket 加载"
+	}
+
+	// ===========================
+	// ZSpawn (module)
+	// ===========================
+
+	// General
+
+	"ZSpawn double spawn"
+	{
+		"chi"		"仅当您在一局进行中加入较晚时才能使用ZSpawn。"
+	}
+
+	"ZSpawn timelimit"
+	{
+		"chi"		"使用ZSpawn的时间限制 ({1} 秒)已过期。"
+	}
+
+	// Menu
+
+	"ZSpawn clients title"
+	{
+		"chi"		"强制 ZSpawn (zr_zspawn_force)\n选择一个玩家："
+	}
+
+	// Commands
+
+	"ZSpawn command force syntax"
+	{
+		"chi"		"在客户端上强制使用ZSpawn。 用法： zr_zspawn_force <客户端> ['0' = 生成为人类 | '1' = 生成为丧尸]"
+
+	}
+
+	"ZSpawn command force successful"
+	{
+		"chi"		"玩家 {1} 成功生成。"
+	}
+
+	"ZSpawn command force unsuccessful"
+	{
+		"chi"		"玩家 {1} 无法产生。"
+	}
+
+	// ===========================
+	// ZTele (module)
+	// ===========================
+
+	// General
+
+	"ZTele restricted human"
+	{
+		"chi"		"ZTele 目前仅限人类使用。"
+	}
+
+	"ZTele max"
+	{
+		"chi"		"您已达到每轮 {1} 个传送的最大值。"
+	}
+
+	"ZTele in progress"
+	{
+		"chi"		"您当前正在等待传送。"
+	}
+
+	"ZTele autocancel text"
+	{
+		"chi"		"传送已被取消。 （限制边界为 {1} 英尺。）"
+	}
+
+	// Center Text
+
+	"ZTele countdown"
+	{
+		"chi"		"传送回城： {1} 秒。"
+	}
+
+	"ZTele autocancel centertext"
+	{
+		"chi"		"传送已被取消。"
+	}
+
+	"ZTele countdown end"
+	{
+		"chi"		"传送回城。(计数： {1}/{2})"
+	}
+
+	// Menu
+
+	"ZTele clients title"
+	{
+		"chi"		"强制 ZTele (zr_ztele_force)\n选择玩家："
+	}
+
+	// Commands
+
+	"ZTele command force syntax"
+	{
+		"chi"		"在客户端上强制 ZTele。 用法： zr_ztele_force <客户端>"
+
+	}
+
+	"ZTele command force successful"
+	{
+		"chi"		"玩家 {1} 被成功传送。"
+	}
+
+	"ZTele command force unsuccessful"
+	{
+		"chi"		"玩家 {1} 无法被传送。"
+	}
+
+	// ===========================
+	// ZHP (module)
+	// ===========================
+
+	// General
+
+	"ZHP enable"
+	{
+		"chi"		"生命值显示已启用，感染后将显示您的真实生命值。"
+	}
+
+	"ZHP disable"
+	{
+		"chi"		"生命值显示已禁用。"
+	}
+
+	// HUD
+
+	"Display HP"
+	{
+		"chi"		"生命值： {1}"
+	}
+
+	// ===========================
+	// Volumetric features (module)
+	// ===========================
+
+	"Vol Anticamp Message"
+	{
+		"chi"		"该区域受限制，请离开。"
+	}
+
+	"Vol Slay"
+	{
+		"chi"		"被杀的玩家 \"{1}\" for camping in a 禁区 (ID: {2})."
+	}
+
+	"Vol Ignite"
+	{
+		"chi"		"点燃的玩家 \"{1}\" for camping in a 禁区 (ID: {2})."
+	}
+}

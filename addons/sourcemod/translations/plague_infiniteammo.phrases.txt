@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+	"infiniteammo"
+	{
+		"en"		"无限弹药补给"
+		"es"		"Municion Infinita"
+	}
+	"you bought infiniteammo"
+	{
+		"en"		"你购买了无限弹药补给！"
+		"es"		"Ahora tienes municion infinita!"
+	}
+
+}

@@ -1,0 +1,20 @@
+﻿"Phrases"
+{
+	"resistencia armadura"
+	{
+		"#format"	"{1:i}"
+		"The shield against infection will resist {1} hits more!"
+		"El escudo anti-infeccion resistira {1} golpes mas!"
+	}
+	"inmunityzp"
+	{
+		"en"		"防化服"
+		"es"		"Escudo anti-infeccion"
+	}
+	"You bought an human shield"
+	{
+		"en"		"你购买了防化服(可抵挡五次僵尸抓伤)"
+		"es"		"Has comprado un escudo anti-infeccion que resiste 5 golpes!"
+	}
+
+}

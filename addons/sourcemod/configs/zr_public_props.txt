@@ -1,0 +1,122 @@
+"Props"
+{
+	"主机箱[HP-100]"
+	{
+		"model"			"models/props/cs_office/computer_caseb.mdl"
+		"height"		"10"
+		"price"			"2"
+		"health"        "100"                                       
+	}
+	"微波炉[HP-150]"
+	{
+		"model"			"models/props/cs_militia/microwave01.mdl"
+		"height"		"5"
+		"price"			"3"
+		"health"        "150"
+	}
+	"木桌子[HP-200]"
+	{
+		"model"			"models/props_c17/furnituredrawer001a.mdl"
+		"height"		"25"
+		"price"			"4"
+		"health"        "200"
+	}
+	"木箱子[HP-300]"
+	{
+		"model"			"models/props/de_nuke/crate_extrasmall.mdl"
+		"height"		"20"
+		"price"			"5"
+		"health"        "300"
+	}
+	"气泵[HP-500]"
+	{
+		"model"		"models/props_wasteland/gaspump001a.mdl"
+		"height"		"4"
+		"price"			"5"
+		"health"        "500"
+	}
+	"空油桶[HP-500]"
+	{
+		"model"			"models/props/de_train/barrel.mdl"
+		"height"		"5"
+		"price"			"6"
+		"health"        "500"
+	} 
+	"储物柜[HP-600]"
+	{
+		"model"			"models/props/cs_office/file_cabinet1.mdl"
+		"height"		"5"
+		"price"			"6"
+		"health"        "600"
+	}
+	"铁桌子[HP-800]"
+	{
+		"model"			"models/props_wasteland/controlroom_desk001b.mdl"
+		"height"		"20"
+		"price"			"8"
+		"health"        "800"
+	}
+	"水泥堆[HP-1000]"
+	{
+		"model"			"models/props/de_prodigy/concretebags4.mdl"
+		"height"		"5"
+		"price"			"14"
+		"health"        "1000"
+	}
+	"FTKM_Zombie_Box[HP-1100]"
+	{
+		"model"			"models/player/props/ftkm/zombie_box/zombie_box_c3.mdl"
+		"height"		"20"
+		"price"			"11"
+		"health"        "1100"
+	}
+	"煤气灶[HP-1200]"
+	{
+		"model"			"models/props/cs_militia/stove01.mdl"
+		"height"		"20"
+		"price"			"12"
+		"health"        "1200"
+	}
+	"沙发椅[HP-1200]"
+	{
+		"model"		"models/props/cs_office/sofa_chair.mdl"
+		"height"		"20"
+		"price"			"12"
+		"health"        "1200"
+	}
+	"烘干机[HP-1300]"
+	{
+		"model"			"models/props/cs_militia/dryer.mdl"
+		"height"		"20"
+		"price"			"13"
+		"health"        "1300"
+	}
+	"售货机[HP-1400]"
+	{
+		"model"		"models/props/cs_office/vending_machine.mdl"
+		"height"		"20"
+		"price"			"14"
+		"health"        "1400"
+	}
+	"垃圾箱[HP-4500]"
+	{
+		"model"			"models/props_junk/trashdumpster01a.mdl"
+		"height"		"26"
+		"price"			"20"
+		"health"        "4500"
+	}
+	"铁叉车[HP-5500]"
+	{
+		"model"			"models/props/cs_assault/forklift.mdl"
+		"height"		"40"
+		"price"			"30"
+		"health"        "5500"
+	}
+	"火车头[HP-20000]"
+	{
+		"model"			"models/props/de_train/diesel.mdl"
+		"height"		"0"
+		"price"			"50"
+		"health"        "20000"
+	} 
+}

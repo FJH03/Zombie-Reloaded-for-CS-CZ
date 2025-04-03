@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/csol/TR_Girl_Cap/tm"
+	"$translucent" 1
+}

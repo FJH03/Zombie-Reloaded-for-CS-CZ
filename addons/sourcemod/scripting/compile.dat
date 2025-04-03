@@ -1,0 +1,76 @@
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR FixPlayerTeam.sp]
+Age=1518539624
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Grenade Effects.sp]
+Age=1495227850
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Lasermines.sp]
+Age=1495227852
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR No Alone Infection & No Armor.sp]
+Age=1513012407
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR No Zombie Flashlight.sp]
+Age=1495695901
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Random Weapon When Respawn For Human.sp]
+Age=1515631648
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR ShowDamage.sp]
+Age=1513010084
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Sound Complement.sp]
+Age=1513001816
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Zprops Spawn.sp]
+Age=1513652628
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Block the respawning due to specific reasons.sp]
+Age=1516021486
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Bot No Attack due to specific reasons.sp]
+Age=1513796954
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR BotStayHere.sp]
+Age=1517256074
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR CSS_8Kills For Human.sp]
+Age=1516399876
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR Custom Radio Sound.sp]
+Age=1496537349
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\ZR CustomMenu.sp]
+Age=1513850638
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_givecredits.sp]
+Age=1513651174
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_goldendeagle.sp]
+Age=1513649810
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_goldenm249.sp]
+Age=1513649136
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_human_c4.sp]
+Age=1513844503
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_infiniteammo.sp]
+Age=1513649175
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_invisibility.sp]
+Age=1513649200
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_setcredits.sp]
+Age=1513650909
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_velocity.sp]
+Age=1513650634
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_viewcredits.sp]
+Age=1513651109
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_wincredits.sp]
+Age=1513650672
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_zombie_smoke.sp]
+Age=1513724289
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_100hp.sp]
+Age=1513648493
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_250hp.sp]
+Age=1513648512
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_antidote.sp]
+Age=1513649932
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_doublejump.sp]
+Age=1513648643
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_escudo.sp]
+Age=1513648677
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\zp_fury.sp]
+Age=1513648903
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\roundendmostkills.sp]
+Age=1486783658
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\adv-noblock.sp]
+Age=1517254299
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\adv-weapon_cleaner.sp]
+Age=1513922361
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\Bot Ping For CSS or CSGO.sp]
+Age=1513703461
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\dyhitmarker.sp]
+Age=1513852666
+[O:\SteamLibrary\steamapps\common\czero-server-x86\cstrike\addons\sourcemod\scripting\admin-fix.sp]
+Age=1518554037

@@ -1,0 +1,6 @@
+
+"UnlitGeneric"
+{
+	"$baseTexture" "Overlays/kill/kill_headshot_5"
+	"$additive" "1"
+}

@@ -1,0 +1,19 @@
+﻿"Phrases"
+{
+	"antidote"
+	{
+		"en"		"解毒剂"
+		"es"		"Curarse con Antidoto"
+	}
+	"you bought antidote"
+	{
+		"en"		"你已经被治愈并且变回了人类！"
+		"es"		"Te has curado y vuelves a ser humano!"
+	}
+	"a vuelto a ser humano con un antidoto"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} 变成了人类通过使用解毒剂！"
+		"es"		"{1} a vuelto a ser humano con un antidoto"
+	}
+}
