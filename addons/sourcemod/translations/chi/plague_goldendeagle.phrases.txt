@@ -1,0 +1,11 @@
+﻿"Phrases"
+{
+	"goldendeagle"
+	{
+		"chi"		"黄金沙鹰"
+	}
+	"you bought goldendeagle"
+	{
+		"chi"		"现在你拥有了黄金沙鹰可以带来更大的伤害和点燃它们！"
+	}
+}

@@ -1,0 +1,25 @@
+﻿"Phrases"
+{
+	"[SM] Utiliza: sm_dar <#userid|nombre> [cantidad]"
+	{
+		"chi"		"[SM] 使用方法: sm_givecredits <#用户id||用户名称> [数量]"
+	}
+	"Tu no tienes tantos creditos!"
+	{
+		"chi"		"你没有足够的ZP积分！"
+	}
+	"No puedes dar menos de 0 creditos!"
+	{
+		"chi"		"你不能给低于零的积分数量！"
+	}
+	"Entregados"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你将{1}个ZP积分送给了玩家 {2}"
+	}
+	"Te ha Entregado"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"玩家 {2} 送给你{1}个ZP积分"
+	}
+}

@@ -1,0 +1,11 @@
+﻿"Phrases"
+{
+	"invisibility"
+	{
+		"chi"		"隐身"
+	}
+	"you bought invisibility"
+	{
+		"chi"		"现在别人看不到你！"
+	}
+}

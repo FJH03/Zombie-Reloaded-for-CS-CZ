@@ -2,12 +2,12 @@
 {
 	"velocity"
 	{
-		"en"		"更快的速度"
+		"en"		"More speed"
 		"es"		"Mas velocidad"
 	}
 	"you bought velocity"
 	{
-		"en"		"现在你的移动速度变得更快！"
+		"en"		"Now you have more speed!"
 		"es"		"Ahora tienes mas velocidad!"
 	}
 

@@ -1,0 +1,23 @@
+﻿"Phrases"
+{
+	"zombie_smoke"
+	{
+		"chi"		"僵尸可放的毒雾"
+	}
+	"you bought zombie_smoke"
+	{
+		"chi"		"你购买了僵尸毒雾，按鼠标右键可以释放！"
+	}
+	"you must be alive"
+	{
+		"chi"        "你必须存活才能使用"
+	}
+	"only zombie can use this"
+	{
+		"chi"        "只有僵尸才能释放毒雾"
+	}
+	"the smoke has been released"
+	{
+		"chi"        "毒雾被释放出来了！"
+	}
+}

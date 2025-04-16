@@ -1,0 +1,16 @@
+﻿"Phrases"
+{
+	"antidote"
+	{
+		"chi"		"解毒剂"
+	}
+	"you bought antidote"
+	{
+		"chi"		"你已经被治愈并且变回了人类！"
+	}
+	"a vuelto a ser humano con un antidoto"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{1} 变成了人类通过使用解毒剂！"
+	}
+}

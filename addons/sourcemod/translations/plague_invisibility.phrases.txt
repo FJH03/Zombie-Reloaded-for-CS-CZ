@@ -1,13 +1,13 @@
 ﻿"Phrases"
 {
-	"invisibility"
-	{
-		"en"		"隐身"
+        "invisibility"
+        {
+		"en"		"Get invisibility"
 		"es"		"Ser invisible"
-	}
+        }
 	"you bought invisibility"
 	{
-		"en"		"现在别人看不到你！"
+		"en"		"Now you are invisible!"
 		"es"		"Ahora eres invisible!"
 	}
 

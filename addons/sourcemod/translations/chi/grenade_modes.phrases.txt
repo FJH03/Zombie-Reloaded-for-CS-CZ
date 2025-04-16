@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"TGrenade"
+	{
+		"chi"	"手雷"
+	}
+	"TMode"
+	{
+		"chi"	"模式"
+	}
+	"TExplosive"
+	{
+		"chi"	"燃烧弹"
+	}
+	"TFlashbang"
+	{
+		"chi"	"照明弹"
+	}
+	"TSmoke"
+	{
+		"chi"	"冰冻弹"
+	}
+	"TNormal"
+	{
+		"chi"	"正常"
+	}
+	"TImpact"
+	{
+		"chi"	"瞬爆"
+	}
+	"TProximity"
+	{
+		"chi"	"接近触发"
+	}
+	"TTripwire"
+	{
+		"chi"	"绊线触发"
+	}
+}

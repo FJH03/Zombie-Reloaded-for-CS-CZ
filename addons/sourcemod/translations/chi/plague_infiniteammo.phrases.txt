@@ -1,0 +1,11 @@
+﻿"Phrases"
+{
+	"infiniteammo"
+	{
+		"chi"		"无限弹药补给"
+	}
+	"you bought infiniteammo"
+	{
+		"chi"		"你购买了无限弹药补给！"
+	}
+}

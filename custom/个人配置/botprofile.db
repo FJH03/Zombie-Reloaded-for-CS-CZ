@@ -200,7 +200,6 @@ End
 Fair SXY-E.YT
 	Clan = [KILLER]
 	Skill = 100
-	WeaponPreference = awp
 	WeaponPreference = m4a1
 	WeaponPreference = sg552
 	ReactionTime = 0
@@ -211,6 +210,7 @@ End
 
 Fair+Sniper LMM_ZXL.
 	Clan = [KILLER]
+	Team = T
 	Skin = 4
 End
 

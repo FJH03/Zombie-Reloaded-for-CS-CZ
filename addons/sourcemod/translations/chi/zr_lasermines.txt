@@ -1,0 +1,45 @@
+"Phrases"
+{
+	"Can't plant, while dead"
+	{
+		"chi"			"当你死亡的时候，你不能放置激光绊雷"
+	}
+	"Can't plant, while zombie"
+	{
+		"chi"			"当你作为丧尸的时候，不能放置激光绊雷"
+	}
+	"Can't use, while spec"
+	{
+		"chi"			"当你作为观看者的时候，不能使用激光绊雷"
+	}
+	"Infinity mines"
+	{
+		"chi"			"你有无限的激光绊雷"
+	}
+	"Mines"
+	{
+		"#format"		"{1:d}"
+		"chi"			"激光绊雷数量: {1}"
+	}
+	"Out of buy zone"
+	{
+		"chi"			"你不在购买区域"
+	}
+	"Can't buy, max amount"
+	{
+		"chi"			"你身上的激光绊雷太多了"
+	}
+	"Can't buy, not enough money"
+	{
+		"#format"		"{1:d}"
+		"chi"			"你有 {1} 个激光绊雷. 你没有足够的金钱购买更多的"
+	}
+	"Can't buy, while zombie"
+	{
+		"chi"			"当你作为丧尸的时候，你不能购买激光绊雷"
+	}
+	"Can't buy, while dead"
+	{
+		"chi"			"当你死亡的时候，你不能购买激光绊雷"
+	}
+}

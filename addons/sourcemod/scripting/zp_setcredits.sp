@@ -8,7 +8,7 @@ public Plugin:myinfo =
 	name = "[ZP] setcredits",
 	author = "Franc1sco franug & [CNSR] FJH_03",
 	description = "",
-	version = "3.2",
+	version = "3.3",
 	url = "http://steamcommunity.com/id/franug"
 };
 
@@ -24,7 +24,7 @@ public Action:CreditControl(client, args)
 {
 	if (args < 2)
 	{
-		PrintToConsole(client, "%t","[SM] Utiliza: sm_setcredits <name> [credits]");
+		ReplyToCommand(client, "[SM] 使用方法: sm_setcredits <#用户id||用户名称> [数量]");
 		return Plugin_Handled;
 	}
 
