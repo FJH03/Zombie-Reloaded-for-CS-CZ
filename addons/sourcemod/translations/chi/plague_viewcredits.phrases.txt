@@ -1,0 +1,12 @@
+﻿"Phrases"
+{
+	"[SM] Utiliza: sm_vercreditos <#userid|nombre>"
+	{
+		"chi"		"[SM] 使用方法: sm_viewcredits <#用户id||用户名称> [数量]"
+	}
+	"Ver creditos"
+	{
+		"#format"	"{1:s},{2:i}"
+		"chi"		"{1} ZP积分数量: {2}"
+	}
+}

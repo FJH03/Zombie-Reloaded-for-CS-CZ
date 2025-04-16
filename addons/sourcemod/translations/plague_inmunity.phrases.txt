@@ -8,12 +8,12 @@
 	}
 	"inmunityzp"
 	{
-		"en"		"防化服"
+		"en"		"Shield against infection"
 		"es"		"Escudo anti-infeccion"
 	}
 	"You bought an human shield"
 	{
-		"en"		"你购买了防化服(可抵挡五次僵尸抓伤)"
+		"en"		"You bought an human shield which resist 5 hits!"
 		"es"		"Has comprado un escudo anti-infeccion que resiste 5 golpes!"
 	}
 

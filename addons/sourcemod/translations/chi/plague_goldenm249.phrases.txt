@@ -1,0 +1,11 @@
+﻿"Phrases"
+{
+	"goldenm249"
+	{
+		"chi"		"黄金M249"
+	}
+	"you bought goldenm249"
+	{
+		"chi"		"现在你拥有了黄金M249以带来更大的伤害并且点燃它们！"
+	}
+}
