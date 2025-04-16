@@ -2,18 +2,18 @@
 {
 	"antidote"
 	{
-		"en"		"解毒剂"
+		"en"		"Become a Human"
 		"es"		"Curarse con Antidoto"
 	}
 	"you bought antidote"
 	{
-		"en"		"你已经被治愈并且变回了人类！"
+		"en"		"You were health and you became human!"
 		"es"		"Te has curado y vuelves a ser humano!"
 	}
-	"a vuelto a ser humano con un antidoto"
-	{
+        "a vuelto a ser humano con un antidoto"
+        {
 		"#format"	"{1:s}"
-		"en"		"{1} 变成了人类通过使用解毒剂！"
+		"en"		"{1} become a human being with an antidote"
 		"es"		"{1} a vuelto a ser humano con un antidoto"
-	}
+        }
 }

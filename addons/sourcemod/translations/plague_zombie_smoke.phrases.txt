@@ -2,22 +2,22 @@
 {
 	"zombie_smoke"
 	{
-		"en"		"僵尸可放的毒雾"
+		"en"		"zombie_smoke"
 	}
 	"you bought zombie_smoke"
 	{
-		"en"		"你购买了僵尸毒雾，按鼠标右键可以释放！"
+		"en"		"you bought zombie_smoke"
 	}
 	"you must be alive"
 	{
-		"en"        "你必须存活才能使用"
+		"en"        "you must be alive"
 	}
 	"only zombie can use this"
 	{
-		"en"        "只有僵尸才能释放毒雾"
+		"en"        "only zombie can use this"
 	}
 	"the smoke has been released"
 	{
-		"en"        "毒雾被释放出来了！"
+		"en"        "the smoke has been released"
 	}
 }

@@ -1,0 +1,15 @@
+﻿"Phrases"
+{
+	"fury"
+	{
+		"chi"		"无敌 5s"
+	}
+	"you bought fury"
+	{
+		"chi"		"现在你在5s内无敌！"
+	}
+	"Ya no eres INVULNERABLE!"
+	{
+		"chi"		"现在你的无敌状态消失了！"
+	}
+}

@@ -1,0 +1,8 @@
+﻿"Phrases"
+{
+	"Puesto creditos"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"现在玩家 {2} 拥有 {1} 个ZP积分！"
+	}
+}
